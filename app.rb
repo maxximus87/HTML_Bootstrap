@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-	erb :layout
+	erb :home
 end
 
 get '/contact' do
