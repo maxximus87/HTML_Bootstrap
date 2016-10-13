@@ -8,7 +8,12 @@ get '/contact' do
 	erb :contact
 end
 
+get '/funnystuff' do
+	erb :funnystuff
+end
+
 post '/name' do
         		name = params[:user_name] 
         		redirect '/pin?users_name=' + name
-end						
+end	
+
