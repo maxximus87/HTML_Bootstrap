@@ -1,0 +1,19 @@
+<center>Hi <%= name %>. It's nice to meet you!<br>
+</center>
+<center>
+    <img class="sizeimage" align="middle" src="/old.jpg">
+    </img>
+
+
+<p class="textcolor">How old are you?</p>
+
+<form method = "post" action = "/age">
+
+	<input type = "number"  name = "age">
+
+	<input type = "hidden" name = "input_name" value = <%= name %>>
+
+	<input type = "submit">
+
+</form>
+</center>

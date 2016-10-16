@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<center>
+<style>
+body {
+    background-image: url('batman.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p class="textcolor">
+	Welcome to the Maxx's Fun Adventure!! To get started, what is your name?
+</p>
+
+<form name = "name_form" class = "form_box" onsubmit = 'return validateForm("name_form","input_name")' method = "post" action = "/name">
+	<input type="text" name="input_name">
+	<input type="submit">
+</form>
+<p id = "error"></p>
+</center>
