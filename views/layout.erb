@@ -48,12 +48,18 @@
 
 
 
-<footer>
+<div id="footer">
 	<footer data-role="footer" data-position="fixed" align="middle">
        <p><a href = "http://www.minedminds.org"target = "_blank">Mined Minds</a><br>
        <a href="tel:724-250-8660">724-250-8660</a><br>
        &copy; 2016</p>
-</footer>
+</div>
+<script>
+  var footerResize = function() {
+    $('#footer').css('position', $("body").height() + $("#footer").innerHeight() > $(window).height() ? "inherit" : "fixed");
+  };
+  $(window).resize(footerResize).ready(footerResize);
+</script>
 </html>
 
 

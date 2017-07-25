@@ -1,6 +1,6 @@
 def change(cents_received)
-	coins = {penny: 0, nickel: 0, dime: 0, quarter: 0, half_dollar: 0, silver_dollar: 0}
-	coin_value = {silver_dollar: 100, half_dollar: 50, quarter: 25, dime: 10, nickel: 5, penny: 1}
+	coins = {penny: 0, nickel: 0, dime: 0, quarter: 0}
+	coin_value = {quarter: 25, dime: 10, nickel: 5, penny: 1}
 	
 
 	coin_value.each do | coin, value|

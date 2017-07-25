@@ -22,11 +22,11 @@ body {
     background-attachment: fixed;
 }
 
- footer {
+footer {
             background-color: ;
             width: 100%;
             bottom: 0;
-            position: fixed;
+            position: relative;
         }
 footer  {
             padding-top:100px;
